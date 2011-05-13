@@ -1,0 +1,26 @@
+<install>
+	<name>ofxGaussian</name>
+	<version>0.01</version>
+	<author>andy lambert</author>
+	<url></url>
+
+	<add>
+
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<src>
+			<folder name="addons/ofxGaussian/src">
+				<file>../../../addons/ofxGaussian/src/ofxGaussian.h</file>
+				<file>../../../addons/ofxGaussian/src/ofxGaussian.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxGaussian/src</path>
+		</include>
+
+	</add>
+
+</install>
